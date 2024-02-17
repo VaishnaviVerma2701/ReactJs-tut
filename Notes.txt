@@ -1,0 +1,32 @@
+day 01:introduction
+
+
+day 02 : create basic react app
+ npx create-react-app filename
+ npm run start
+ npm run build
+
+ CREATE APP USING VITE
+ npm create vite@latest
+ project name
+ packege name 
+ react
+ javascript
+ cd project name
+ npm i
+ npm run dev
+
+template of react
+Link : https://legacy.reactjs.org/docs/hello-world.html
+
+
+day 03 : introduction javascript
+
+day 04: basic introduction of jsx, like class = className , always use closing tag
+
+day 05-06 :  proj1-textutil and props and prosType
+
+run the module1 
+cd day05.proj1-textutil
+cd src
+node .\module1.mjs
