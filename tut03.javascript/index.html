@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a= 34;
+        var b=4;
+        const c=8; 
+       // c=98 // show the error beacuse const can not be change
+        //console.log(a ,b,c);
+
+        /*data type
+            Number
+            Object
+            Boolean
+            String
+            undefined
+            null
+            */ 
+
+        //function
+        function hello(){
+        console.log("hii vaishnavi");
+        }
+        hello()
+
+         // object
+        let obj={
+         r:49,
+        m:89,
+        fun : function myfunction(number) {
+         console.log("the number is",number);
+        }
+        }
+
+           //dom
+        document.addEventListener("click",function click(){
+        console.log("click here");
+            //alert("are you sure")
+        let conf = confirm("are yu sure");
+        console.log(conf);
+        })
+             
+        let arr =[23,45,66];
+
+           // for loop
+        for (let index = 0; index < arr.length; index++) {
+        const element = arr[index];
+           }
+
+          // normal function
+        function myfuc(number) {
+        console.log("the number is"+this);
+           }
+        myfuc()
+              
+           // object with this keyword and arrow function
+        let myobj={
+        a : this ,
+
+        // this is arror function
+        myfuc1 : (number)=>{
+        console.log("the number is"+this); // this is show the window object
+        },
+
+        // normal function
+        myfuc2 : function(number){
+        console.log("the number is"+this); // this is show the object
+        }
+         }
+        myobj.myfuc1();
+        myobj.myfuc2();
+        console.log(myobj.a);
+
+     // setTimeout
+     setTimeout(()=>{
+        console.log("yayy");
+     },3000);
+    console.log("mai neeche wali script hoon");
+
+    </script>
+</head>
+<body>
+    I am Vaishnavi Verma and I am good coder
+</body>
+</html>
