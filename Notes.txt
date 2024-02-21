@@ -1,7 +1,7 @@
-day 01:introduction
+tut 01:introduction
 
 
-day 02 : create basic react app
+tut 02 : create basic react app
  npx create-react-app filename
  npm run start
  npm run build
@@ -19,14 +19,86 @@ day 02 : create basic react app
 template of react
 Link : https://legacy.reactjs.org/docs/hello-world.html
 
+BOOTSTRAP Link :https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
-day 03 : introduction javascript
 
-day 04: basic introduction of jsx, like class = className , always use closing tag
+tut 03 : introduction javascript
 
-day 05-06 :  proj1-textutil and props and prosType
+tut 04: basic introduction of jsx, like class = className , always use closing tag
+
+tut 05-06 :  proj1-textutil and props and prosType
 
 run the module1 
-cd day05.proj1-textutil
+cd tut05.proj1-textutil
 cd src
 node .\module1.mjs
+
+tut 06: Navbar.js
+
+tut 08: 
+add your text summary and priviwe in  tut6/Navbar
+tut 07:  TextForm.js
+state and event handling 
+
+tut 09/11: add more button to perfom action like copy text , remove extra space
+
+tut 10: About.js
+enable the dark mode 
+
+tut 12:  set the dark and light mode using style and switch
+style ={{backgroundColor,color}} which used in TextForm and Navbar in this tut
+
+tut 13: Alert.js 
+adding + auti dismissing alert message
+
+tut 15 :  change title dynamically & adding favicon to TextUtils
+Link to create favicon :https://www.favicon-generator.org/
+
+CHANGE FAVICON
+1. download file.png
+2.go to link and create icon => give the zip file
+3. extra zip file
+4.save image in public  whose you want
+5.add the html page
+
+tut 16 : react Router
+
+SET UP REACT ROUTER
+1. npm install react-router-dom
+2.  App.js => import {
+    Routes,
+    Route,
+    Link
+} from "react router dom"
+
+In previous used Switch but now we are used Routes
+
+Routes are always write inside of Router tag
+
+
+tut 17:  deploye the react app in github
+
+1. github does not used react page or router
+2. remove all Router like About page 
+    Router,Routes,Link , and repalce Link and to => a and herf in Navbar
+3. Create repository in github
+4. paste the link in packege.json at the top
+   "homepage": "https://VaishnaviVerma2701.github.io/tut05.proj1-textutil",
+5 . cd project name 
+    npm install --save gh-pages
+6. paste the script 
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",  
+7. npm run deploy
+
+
+tut 24:
+new api Link :https://newsapi.org/
+
+1. go to this link 
+2. get register 
+3. than generet API key 
+4. to go documnetation in api and chose top heading
+5. copy the get link and pest the crome 
+6 if search any key than end of link write &q=keyname
+7. this is used in sampleoutput.json file
